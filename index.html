@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+
+    <link rel="stylesheet" href="vendors/normalize.css">
+    <link rel="stylesheet" href="vendors/grid.css">
+
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    
+
+
+    <div class="container">
+        <div class="row">
+            <h3>Simplex-Calc</h3>
+        </div>
+        <div class="row">
+            <div class="col span-1-of-2">
+                <input type="number" id="input-one" class="input-one" placeholder="Input first entry">
+            </div>
+            <div class="col span-1-of-2">
+                <input type="number" id="input-two" class="input-two" placeholder="Input second entry">
+            </div>
+        </div>
+
+        <div class="row">
+            <input type="number" id="result" class="result" placeholder="Output">
+        </div>
+
+        <hr>
+
+        <div class="row">
+            <div class="col span-1-of-6">
+                <button class="btn btn-plus" id="btn-plus">+</button>
+            </div>
+            <div class="col span-1-of-6">
+                <button class="btn btn-sub" id="btn-sub">-</button>
+            </div>
+            <div class="col span-1-of-6">
+                <button class="btn btn-pro" id="btn-pro">*</button>
+            </div>
+            <div class="col span-1-of-6">
+                <button class="btn btn-div" id="btn-div">/</button>
+            </div>
+            <div class="col span-1-of-6">
+                <button class="btn btn-mod" id="btn-mod">%</button>
+            </div>
+            <div class="col span-1-of-6">
+                <button class="btn btn-clear" id="btn-clear">C</button>
+            </div>
+        </div>
+
+        <div class="box-container">
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+        </div>
+    </div>
+
+
+    <script src="main.js"></script>
+
+</body>
+</html>
